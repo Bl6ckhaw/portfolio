@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boids - Détails</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>BOIDS</h1>
+    </header>
+    <button id="toggleThemeBtn">Dark Mode</button>
+    <button id="langBtn">EN</button>
+    <div class="container">
+        <div class="carousel">
+            <div class="slides">
+                <video controls>
+                    <source src="videos/boids.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture vidéo.
+                </video>
+            </div>
+        </div>
+        <div class="details">
+            <h2>Description</h2>
+            <p data-i18n="boidsDescription">
+                Simulation d'un vol d'oiseaux en essaim, basée sur des comportements mathématiques et physiques. Chaque oiseau réagit aux autres et crée un mouvement collectif fluide et naturel. Projet inspiré des systèmes de particules et d'IA comportementale.
+            </p>
+            <div class="tags">
+                <span class="tag" data-i18n="tagMath">mathématiques</span>
+                <span class="tag" data-i18n="tagFlight">vol</span>
+                <span class="tag" data-i18n="tagBirds">oiseaux</span>
+            </div>
+            <div class="buttons">
+                <a href="fichiers/Boids.zip" download>
+                    <button data-i18n="downloadNow">Télécharger maintenant</button>
+                </a>
+                <button data-i18n="back" onclick="window.location.href='index.html'">Retour</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer data-i18n="footer">
+        © 2025 ALLANO Hugo. Tous droits réservés.
+    </footer>
+    
+    <script src="modeLuminosite.js" defer></script>
+    <script src="lang.js" defer></script>
+    
+
+</body>
+</html>

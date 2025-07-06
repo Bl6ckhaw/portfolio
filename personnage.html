@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personnage - Détails</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>PIRATE</h1>
+    </header>
+    <button id="toggleThemeBtn">Dark Mode</button>
+    <button id="langBtn">EN</button>
+    <div class="container">
+        <div class="carousel">
+            <div class="slides">
+                <img src="images/pirate1.png" alt="Image principale">
+                <img src="images/pirate2.png" alt="Capture d'écran 1">
+                <img src="images/pirate3.png" alt="Capture d'écran 2">
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="details">
+            <h2>Description</h2>
+            <p data-i18n="pirateDescription">
+                Modélisation 3D d'un personnage pirate stylisé. Conçu pour un univers d'aventure, ce modèle met l'accent sur la personnalité et les détails visuels pour renforcer l'identité du personnage.
+            </p>
+            <div class="tags">
+                <span class="tag" data-i18n="tag3D">3D</span>
+                <span class="tag" data-i18n="tagModeling">Modélisation</span>
+                <span class="tag" data-i18n="tagPirate">pirate</span>
+            </div>
+            <div class="buttons">
+                <a href="fichiers/personnage.zip" download>
+                    <button data-i18n="downloadNow">Télécharger maintenant</button>
+                </a>
+                <button data-i18n="back" onclick="window.location.href='index.html'">Retour</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer data-i18n="footer">
+        © 2025 ALLANO Hugo. Tous droits réservés.
+    </footer>
+    
+    <script src="modeLuminosite.js" defer></script>
+    <script src="lang.js" defer></script>
+    <script src="carrousel.js"></script>
+
+</body>
+</html>

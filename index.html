@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 48px;
+    }
+    header p {
+      font-size: 20px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .project-card .content {
+      padding: 15px;
+      text-align: center;
+    }
+    .project-card button {
+      background: #6e8efb;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .project-card button:hover {
+      background: #5c75e1;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1 data-i18n="portfolioTitle">Mon Portfolio</h1>
+        <p data-i18n="subtitle">Développeur de jeux & créatif passionné</p>
+    </header>
+    <button id="toggleThemeBtn">Dark Mode</button>
+    <button id="langBtn">EN</button>
+    <section>
+        <h2 data-i18n="myProjects">Mes Projets</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="images/rushphoto.jpg" alt="Jeu 1">
+                <div class="content">
+                    <h3>RUSH THAT</h3>
+                    <button data-i18n="viewDetails" onclick="window.location.href='rushThat.html'">Voir détails</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/boids.jpg" alt="Jeu 2">
+                <div class="content">
+                    <h3>BOIDS</h3>
+                    <button data-i18n="viewDetails" onclick="window.location.href='boids.html'">Voir détails</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/ile.jpg" alt="Jeu 3">
+                <div class="content">
+                    <h3>MAP</h3>
+                    <button data-i18n="viewDetails" onclick="window.location.href='ile.html'">Voir détails</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/pirate.jpg" alt="Jeu 4">
+                <div class="content">
+                    <h3>PIRATE</h3>
+                    <button data-i18n="viewDetails" onclick="window.location.href='personnage.html'">Voir détails</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2 data-i18n="about">À propos</h2>
+        <p style="text-align:center;" data-i18n="aboutText">
+            Passionné par le développement web et la création de jeux vidéo, je mets ma créativité et mes compétences techniques au service de projets innovants. Curieux et autonome, j’aime relever les défis et apprendre continuellement pour offrir des expériences numériques de qualité.
+        </p>
+    </section>
+    
+    <section>
+        <h2>Contact</h2>
+        <p style="text-align:center;">
+            📧 <a href="mailto:allano.hugo23@gmail.com">allano.hugo23@gmail.com</a> <br>
+            💼 <a href="https://www.linkedin.com/in/hugo-allano-717080214" target="_blank">LinkedIn</a>
+        </p>
+    </section>
+    
+    <footer data-i18n="footer">
+        © 2025 ALLANO Hugo. Tous droits réservés.
+    </footer>
+    
+    <script src="modeLuminosite.js" defer></script>
+    <script src="lang.js" defer></script>
+    
+
+</body>
+</html>

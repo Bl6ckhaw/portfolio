@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RUSH THAT - Détails</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>RUSH THAT</h1>
+</header>
+<button id="toggleThemeBtn">Dark Mode</button>
+    <button id="langBtn">EN</button>
+<div class="container">
+    <div class="carousel">
+        <div class="slides">
+            <video controls>
+                <source src="videos/rushThat.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+            <img src="images/rush-that.png" alt="Image principale">
+            <img src="images/rush1.png" alt="Capture d'écran 1">
+            <img src="images/rush2.png" alt="Capture d'écran 2">
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+    <div class="details">
+        <h2>Description</h2>
+        <p data-i18n="rushDescription">
+            Plongez dans une aventure palpitante où vous explorez des donjons mystérieux, affrontez des boss épiques et découvrez des trésors cachés. Inspiré des meilleurs RPG, ce jeu mélange exploration, puzzle et action.
+        </p>
+        <div class="tags">
+            <span class="tag" data-i18n="tagTimer">Contre-la-montre</span>
+            <span class="tag" data-i18n="tagSpeed">Vitesse</span>
+            <span class="tag" data-i18n="tagSolo">Solo</span>
+        </div>
+        <div class="buttons">
+            <a href="fichiers/RUSH-THAT.zip" download>
+                <button data-i18n="downloadNow">Télécharger maintenant</button>
+            </a>
+            <button data-i18n="back" onclick="window.location.href='index.html'">Retour</button>
+        </div>
+    </div>
+</div>
+
+<footer data-i18n="footer">
+  © 2025 ALLANO Hugo. Tous droits réservés.
+</footer>
+
+<script src="lang.js" defer></script>
+<script src="carrousel.js"></script>
+<script src="modeLuminosite.js" defer></script>
+
+</body>
+</html>
