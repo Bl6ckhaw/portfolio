@@ -1,1 +1,5 @@
 /details
+# Exclure les gros fichiers ZIP (sauf RUSH-THAT.zip)
+fichiers/Ile.zip
+fichiers/personnage.zip
+fichiers/Boids.zip
