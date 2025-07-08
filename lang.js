@@ -9,11 +9,11 @@ const translations = {
     
         // Index
         portfolioTitle: "Mon Portfolio",
-        subtitle: "Développeur de jeux & créatif passionné",
+        subtitle: "Développeur & explorateur de technologies créatives",
         myProjects: "Mes Projets",
         about: "À propos",
         viewDetails: "Voir détails",
-        aboutText: "Passionné par le développement web et la création de jeux vidéo, je mets ma créativité et mes compétences techniques au service de projets innovants. Curieux et autonome, j’aime relever les défis et apprendre continuellement pour offrir des expériences numériques de qualité.",
+        aboutText: "Curieux, créatif et rigoureux, j'aime donner vie aux idées et résoudre des problèmes de façon concrète. Mon parcours m'a permis de développer à la fois un sens aigu du détail et une vision d'ensemble, que ce soit dans la conception, la gestion ou la mise en œuvre de projets. J'apprécie particulièrement travailler sur des projets qui allient technique et créativité, et je mets un point d'honneur à créer des solutions utiles, esthétiques et efficaces. Toujours à l’écoute, je m’adapte facilement aux différents environnements et je crois fermement que la collaboration et le partage sont les clés pour avancer.",
 
         cosmicAdventuresDescription: "Un projet 2D inspiré des niveaux de type gauntlet, se déroulant dans un vaisseau spatial. Le joueur affronte des ennemis extraterrestres et interagit avec des objets pour recharger son énergie ou récupérer de la vie, combinant combat et gestion des ressources.",
         artGalleryDescription: "Un projet d’exploration de fiction interactive où tout se déroule à l’écrit. Le joueur se déplace entre des pièces décrites textuellement, collecte des objets et les utilise pour avancer vers l’objectif final.",
@@ -35,13 +35,13 @@ const translations = {
     
         // Index
         portfolioTitle: "My Portfolio",
-        subtitle: "Game developer & passionate creative",
+        subtitle: "Developer & creative tech explorer",
         myProjects: "My Projects",
         about: "About",
         darkMode: "Switch to dark mode",
         lightMode: "Switch to light mode",
         viewDetails: "See details",
-        aboutText: "Passionate about web development and game creation, I use my creativity and technical skills to build innovative projects. Curious and autonomous, I love taking on challenges and continuously learning to deliver high-quality digital experiences.",
+        aboutText: "Curious, creative, and detail-oriented, I enjoy bringing ideas to life and solving problems in a concrete, hands-on way. My background has allowed me to develop both a sharp eye for detail and a strong ability to see the bigger picture, whether in design, project management, or implementation. I particularly enjoy working on projects that combine technical skills and creativity, and I make it a point to create solutions that are useful, aesthetic, and effective. Always attentive and adaptable, I believe that collaboration and sharing are key to moving forward.",
     
         cosmicAdventuresDescription: "A 2D project inspired by gauntlet-style levels, set in a spaceship. The player faces alien enemies and interacts with objects to recharge energy or recover health, combining combat and resource management.",
         artGalleryDescription: "An interactive fiction exploration project where everything unfolds in writing. The player navigates through textually described rooms, collects objects, and uses them to progress towards the final goal.",
