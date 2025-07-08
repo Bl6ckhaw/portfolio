@@ -3,39 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ile - Détails</title>
+  <title>Donuts - Détails</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
     <header>
-        <h1>ILE</h1>
+        <h1>COFFEE & DONUTS</h1>
     </header>
     <button id="toggleThemeBtn">Dark Mode</button>
     <button id="langBtn">EN</button>
     <div class="container">
         <div class="carousel">
             <div class="slides">
-                <video controls>
-                    <source src="videos/ile.mp4" type="video/mp4">
-                    Votre navigateur ne supporte pas la lecture vidéo.
-                </video>
-                <img src="images/ile/1.png" alt="Image principale">
-                <img src="images/ile/2.png" alt="Capture d'écran 1">
-                <img src="images/ile/3.png" alt="Capture d'écran 2">
+                <img src="images/donuts.png" alt="Capture d'écran 1">
             </div>
-            <button class="prev">&#10094;</button>
-            <button class="next">&#10095;</button>
         </div>
         <div class="details">
             <h2 data-i18n="description">Description</h2>
-            <p data-i18n="ileDescription">
-                Un projet d’environnement 3D sur Unity représentant une île. Il se concentre sur la création de paysages naturels, la sculpture de terrain, le texturage et la conception d’environnement de base.
+            <p data-i18n="donutsDescription">
+                Un exercice de modélisation 3D réalisé sur Blender pour reproduire un donut et une tasse de café. L’objectif est de maîtriser les techniques de base en modélisation, texturage et rendu.
             </p>
             <div class="tags">
+                <span class="tag" >Blender</span>
                 <span class="tag" >3D</span>
-                <span class="tag" >Unity</span>
-                <span class="tag" >C#</span>
             </div>
             <div class="buttons">
                 <button data-i18n="back" onclick="window.location.href='index.html'">Retour</button>
@@ -49,7 +40,6 @@
     
     <script src="modeLuminosite.js" defer></script>
     <script src="lang.js" defer></script>
-    <script src="carrousel.js"></script>
 
 </body>
 </html>

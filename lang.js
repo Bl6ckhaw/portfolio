@@ -14,27 +14,15 @@ const translations = {
         about: "À propos",
         viewDetails: "Voir détails",
         aboutText: "Passionné par le développement web et la création de jeux vidéo, je mets ma créativité et mes compétences techniques au service de projets innovants. Curieux et autonome, j’aime relever les défis et apprendre continuellement pour offrir des expériences numériques de qualité.",
-    
-        // Rush That
-        rushDescription: "Plongez dans une aventure palpitante où vous explorez des donjons mystérieux, affrontez des boss épiques et découvrez des trésors cachés. Inspiré des meilleurs RPG, ce jeu mélange exploration, puzzle et action.",
-        tagTimer: "Contre-la-montre",
-        tagSpeed: "vitesse",
-        tagSolo: "Solo",
-    
-        // Boids
-        boidsDescription: "Simulation d'un vol d'oiseaux en essaim, basée sur des comportements mathématiques et physiques. Chaque oiseau réagit aux autres et crée un mouvement collectif fluide et naturel.",
-        tagMath: "mathématiques",
-        tagFlight: "vol",
-        tagBirds: "oiseaux",
-    
-        // Pirate
-        pirateDescription: "Modélisation 3D d'un personnage pirate stylisé. Conçu pour un univers d'aventure, ce modèle met l'accent sur la personnalité et les détails visuels pour renforcer l'identité du personnage.",
-        tagModeling: "Modélisation",
-        tagPirate: "pirate",
-    
-        // Ile
-        ileDescription: "Modélisation d'une île 3D immersive, conçue pour explorer un environnement naturel et détaillé. Ce projet met en avant la création de terrains, la végétation et l'ambiance d'une aventure tropicale.",
-        tagMap: "Map",
+
+        cosmicAdventuresDescription: "Un projet 2D inspiré des niveaux de type gauntlet, se déroulant dans un vaisseau spatial. Le joueur affronte des ennemis extraterrestres et interagit avec des objets pour recharger son énergie ou récupérer de la vie, combinant combat et gestion des ressources.",
+        artGalleryDescription: "Un projet d’exploration de fiction interactive où tout se déroule à l’écrit. Le joueur se déplace entre des pièces décrites textuellement, collecte des objets et les utilise pour avancer vers l’objectif final.",
+        pirateDescription: "Un projet de création de personnage sur Unity mettant en scène un pirate inspiré du style cubique de Minecraft. L’objectif est d’explorer la modélisation low-poly et la mise en place d’un personnage.",
+        ileDescription: "Un projet d’environnement 3D sur Unity représentant une île. Il se concentre sur la création de paysages naturels, la sculpture de terrain, le texturage et la conception d’environnement de base.",
+        syllogismeDescription: "Un programme conçu pour vérifier la validité logique des syllogismes. Il génère et affiche également un tableau récapitulant tous les types de syllogismes valides et non valides.",
+        rushDescription: "Un jeu 3D centré sur la vitesse de réaction et les déplacements. Le joueur doit atteindre des points qui apparaissent aléatoirement sur une petite carte dans un temps limité. L’objectif principal est de tester et améliorer la rapidité.",
+        flappyMonsterDescription: "Un jeu 2D inspiré de Flappy Bird, recréé avec des visuels originaux. L’accent est mis sur un gameplay simple et continu, où le joueur évite des obstacles à l’aide de designs entièrement créés par le développeur.",
+        donutsDescription: "Un exercice de modélisation 3D réalisé sur Blender pour reproduire un donut et une tasse de café. L’objectif est de maîtriser les techniques de base en modélisation, texturage et rendu.",
       },
     
       en: {
@@ -55,26 +43,14 @@ const translations = {
         viewDetails: "See details",
         aboutText: "Passionate about web development and game creation, I use my creativity and technical skills to build innovative projects. Curious and autonomous, I love taking on challenges and continuously learning to deliver high-quality digital experiences.",
     
-        // Rush That
-        rushDescription: "Dive into an exciting adventure where you explore mysterious dungeons, face epic bosses, and discover hidden treasures. Inspired by the best RPGs, this game combines exploration, puzzles, and action.",
-        tagTimer: "Speedrun",
-        tagSpeed: "Speed",
-        tagSolo: "Solo",
-    
-        // Boids
-        boidsDescription: "Simulation of a flock of birds, based on mathematical and physical behaviors. Each bird reacts to others, creating smooth and natural collective motion.",
-        tagMath: "mathematics",
-        tagFlight: "flight",
-        tagBirds: "birds",
-    
-        // Pirate
-        pirateDescription: "3D modeling of a stylized pirate character. Designed for an adventure universe, this model emphasizes personality and visual details to strengthen the character's identity.",
-        tagModeling: "Modeling",
-        tagPirate: "pirate",
-    
-        // Ile
-        ileDescription: "3D modeling of an immersive island, designed to explore a natural and detailed environment. This project highlights terrain creation, vegetation, and a tropical adventure atmosphere.",
-        tagMap: "Map",
+        cosmicAdventuresDescription: "A 2D project inspired by gauntlet-style levels, set in a spaceship. The player faces alien enemies and interacts with objects to recharge energy or recover health, combining combat and resource management.",
+        artGalleryDescription: "An interactive fiction exploration project where everything unfolds in writing. The player navigates through textually described rooms, collects objects, and uses them to progress towards the final goal.",
+        pirateDescription: "A character creation project in Unity featuring a pirate inspired by Minecraft's blocky style. The goal is to explore low-poly modeling and set up a character.",
+        ileDescription: "A 3D environment project in Unity representing an island. It focuses on creating natural landscapes, terrain sculpting, texturing, and basic environment design.",
+        syllogismeDescription: "A program designed to check the logical validity of syllogisms. It also generates and displays a table summarizing all valid and invalid syllogism types.",
+        rushDescription: "A 3D game focused on reaction speed and movement. The player must reach points that appear randomly on a small map within a limited time. The main objective is to test and improve speed.",
+        flappyMonsterDescription: "A 2D game inspired by Flappy Bird, recreated with original visuals. The focus is on simple and continuous gameplay, where the player avoids obstacles using designs entirely created by the developer.",
+        donutsDescription: "A 3D modeling exercise done in Blender to recreate a donut and a coffee cup. The goal is to master basic techniques in modeling, texturing, and rendering.",
       },
   };
   
