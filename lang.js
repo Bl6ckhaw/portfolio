@@ -3,6 +3,7 @@ const translations = {
         // Général
         downloadNow: "Télécharger maintenant",
         back: "Retour",
+        play: "Jouer",
         footer: "© 2025 ALLANO Hugo. Tous droits réservés.",
         darkMode: "Passer en mode sombre",
         lightMode: "Passer en mode clair",
@@ -23,12 +24,14 @@ const translations = {
         rushDescription: "Un jeu 3D centré sur la vitesse de réaction et les déplacements. Le joueur doit atteindre des points qui apparaissent aléatoirement sur une petite carte dans un temps limité. L’objectif principal est de tester et améliorer la rapidité.",
         flappyMonsterDescription: "Un jeu 2D inspiré de Flappy Bird, recréé avec des visuels originaux. L’accent est mis sur un gameplay simple et continu, où le joueur évite des obstacles à l’aide de designs entièrement créés par le développeur.",
         donutsDescription: "Un exercice de modélisation 3D réalisé sur Blender pour reproduire un donut et une tasse de café. L’objectif est de maîtriser les techniques de base en modélisation, texturage et rendu.",
+        slotMachineDescription: "Plongez dans l'univers captivant des machines à sous avec ce jeu immersif. Testez votre chance et vos compétences en alignant les symboles pour décrocher le jackpot. Avec des graphismes époustouflants, chaque spin est une nouvelle aventure."
       },
     
       en: {
         // General
         downloadNow: "Download now",
         back: "Back",
+        play: "Play",
         footer: "© 2025 ALLANO Hugo. All rights reserved.",
         darkMode: "Switch to dark mode",
         lightMode: "Switch to light mode",
@@ -51,6 +54,7 @@ const translations = {
         rushDescription: "A 3D game focused on reaction speed and movement. The player must reach points that appear randomly on a small map within a limited time. The main objective is to test and improve speed.",
         flappyMonsterDescription: "A 2D game inspired by Flappy Bird, recreated with original visuals. The focus is on simple and continuous gameplay, where the player avoids obstacles using designs entirely created by the developer.",
         donutsDescription: "A 3D modeling exercise done in Blender to recreate a donut and a coffee cup. The goal is to master basic techniques in modeling, texturing, and rendering.",
+        slotMachineDescription: "Dive into the captivating world of slot machines with this immersive game. Test your luck and skills by aligning symbols to hit the jackpot. With stunning graphics, every spin is a new adventure."
       },
   };
   
